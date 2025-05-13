@@ -120,9 +120,7 @@
                 document.getElementById('notification').classList.remove('d-none');
                 document.getElementById('orderForm').reset();
                 // Bisa tambahkan baris ke tabel di sini kalau mau
-            })
-            .catch(error => {
-                alert("Terjadi kesalahan: " + error.message);
+
             });
         });
     </script>
